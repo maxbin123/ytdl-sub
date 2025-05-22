@@ -21,6 +21,7 @@ RUN mkdir -p /config && \
       "python3>=3.10" \
       py3-pip \
       fontconfig \
+      git \
       py3-setuptools && \
     # Install edge ffmpeg and aria2 from community, ensure they are properly installed
     apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community \
