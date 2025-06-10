@@ -14,6 +14,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
 ]
+
 dependencies = [
     "yt-dlp[default] @ git+https://github.com/yt-dlp/yt-dlp.git@release",
     "colorama~=0.4",
